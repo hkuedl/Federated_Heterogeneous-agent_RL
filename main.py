@@ -1,8 +1,7 @@
 import numpy as np
-import argparse
 from copy import deepcopy
 import torch
-import gym
+
 
 from Env.EH_model import EH_Model
 from Algorithm.agent import RL_agent
@@ -131,7 +130,7 @@ if __name__ == "__main__":
         bsize = 256,                        # mini-batch size of agents
         mbsize = 256,                       # mini-batch size of masters
         rmsize = 1000000,                   # memory size                
-        epsilon = 150000,                   # linear decay of exploration policy 
+        epsilon = 180000,                   # linear decay of exploration policy 
         hidden1 = 256,                      # hidden num of first fully connect layer                                     
         hidden2 = 256,                      # hidden num of second fully connect layer                      
         discount = 0.999,                   # reward discount factor
@@ -147,9 +146,9 @@ if __name__ == "__main__":
         agent_train = True,
         KD_start = 0,                      # the iteration to start KD
         KD_stop = 10000*24,                # the iteration to stop KD
-        num_agent = 10,                    # the number of agents
 
         ## 10 agents
+        num_agent = 10,
         seed = [1, 10, 100, 1000, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9, 1e10,],                          # random seed
 
         dataset_index = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
