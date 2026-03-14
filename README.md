@@ -8,7 +8,7 @@ Authors: Haoyuan Deng, Lingyu Chen, Wenbo Zeng, Xueyuan Cui, Yi Wang
 
 ## Overview
 
-In this work, we introduce federated reinforcement learning (FRL) for flexible dispatch of EHs and, specifically, propose a federated heterogeneous-agent reinforcement learning (FHRL) framework to overcome the challenges posed by inter-agent heterogeneity, which could lead to training instability and performance degradation in FRL. Our framework features an adaptive model aggregation method that extracts generalized knowledge of dispatch policies to generate the global model. Furthermore, it incorporates a knowledge transfer mechanism that leverages the generalized knowledge to guide the optimization of each local policy.
+In this work, we introduce federated reinforcement learning (FRL) for flexible dispatch of energy hubs (EHs) and, specifically, propose a federated heterogeneous-agent reinforcement learning (FHRL) framework to overcome the challenges posed by inter-agent heterogeneity, which could lead to training instability and performance degradation in FRL. Our framework features an adaptive model aggregation method that extracts generalized knowledge of dispatch policies to generate the global model. Furthermore, it incorporates a knowledge transfer mechanism that leverages the generalized knowledge to guide the optimization of each local policy.
 
 ## Key Features
 
