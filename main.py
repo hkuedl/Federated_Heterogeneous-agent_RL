@@ -146,7 +146,7 @@ if __name__ == "__main__":
         ## 10 agents
         agent_train = True,
         KD_start = 0,                      # the iteration to start KD
-        KD_stop = 4000*24,                 # the iteration to stop KD
+        KD_stop = 10000*24,                # the iteration to stop KD
         num_agent = 10,                    # the number of agents
 
         ## 10 agents
