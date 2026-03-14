@@ -13,8 +13,8 @@ In this work, we introduce federated reinforcement learning (FRL) for flexible d
 ## Key Features
 
 - **Heterogeneous Agents**: Support for agents with different preferences and configurations
-- **Federated Learning**: Decentralized training with model aggregation
-- **Knowledge Distillation**: Transfer learning between master and agent models
+- **Federated Learning**: Decentralized training with adaptive model aggregation
+- **Knowledge Distillation**: Knowledge transfer between master and agent models
 - **Safety-aware Algorithm**: Safety-aware reinforcement learning algorithm implementation
 
 ## Installation
@@ -39,7 +39,7 @@ python main.py
 ```
 
 The script contains:
-- `global_model_training`: Trains the federated model using Simulator1
+- `global_model_training`: Trains the federated global model using Simulator1
 - `know_transfer`: Performs knowledge transfer using Simulator2 with knowledge distillation
 
 ### Configuration
@@ -59,7 +59,7 @@ Modify the `variant` dictionary in `main.py` to configure:
 
 ### Algorithms
 - **Agent**: Safety-aware RL algorithm for continuous action spaces
-- **Model Filtering**: Techniques for aggregating model updates in a federated setting
+- **Adaptive Model Aggregation**: Techniques for adaptively aggregating model updates in a federated setting
 
 ### Environment
 - **EH_Model**: Energy hub model simulating distributed energy resource management under uncertainties
