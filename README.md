@@ -15,7 +15,7 @@ In this work, we introduce federated reinforcement learning (FRL) for flexible d
 - **Heterogeneous Agents**: Support for agents with different preferences and configurations
 - **Federated Learning**: Decentralized training with model aggregation
 - **Knowledge Distillation**: Transfer learning between master and agent models
-- **RL Algorithm**: Safety-aware reinforcement learning algorithm implementation
+- **Safety-aware Algorithm**: Safety-aware reinforcement learning algorithm implementation
 
 ## Installation
 
